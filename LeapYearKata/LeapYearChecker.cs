@@ -4,7 +4,7 @@
     {
         public static string CheckIsLeapYear()
         {
-            throw new System.NotImplementedException();
+            return "Leap Year!";
         }
     }
 }
