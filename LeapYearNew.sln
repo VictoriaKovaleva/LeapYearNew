@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearKata.Test", "LeapYearKata.Test\LeapYearKata.Test.csproj", "{A6E5C421-AC51-4F78-962D-946628A993E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearKata", "LeapYearKata\LeapYearKata.csproj", "{481B3965-D6D7-4409-9FEB-EE8453AC4BD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6E5C421-AC51-4F78-962D-946628A993E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6E5C421-AC51-4F78-962D-946628A993E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6E5C421-AC51-4F78-962D-946628A993E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6E5C421-AC51-4F78-962D-946628A993E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{481B3965-D6D7-4409-9FEB-EE8453AC4BD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{481B3965-D6D7-4409-9FEB-EE8453AC4BD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{481B3965-D6D7-4409-9FEB-EE8453AC4BD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{481B3965-D6D7-4409-9FEB-EE8453AC4BD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
