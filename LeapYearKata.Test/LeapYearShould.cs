@@ -19,6 +19,14 @@ namespace LeapYearKata.Test
             string actual = LeapYearChecker.CheckIsLeapYear(2004);
             Assert.Equal("Leap Year!", actual);
         }
+
+        [Fact]
+        public void ReturnNotLeapYearFor2005()
+        {
+            string actual = LeapYearChecker.CheckIsLeapYear(2005);
+            Assert.Equal("Not Leap Year!", actual);
+
+        }
         
     }
 }
