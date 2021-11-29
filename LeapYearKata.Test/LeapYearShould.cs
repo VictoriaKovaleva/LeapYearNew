@@ -6,34 +6,16 @@ namespace LeapYearKata.Test
 {
     public class LeapYearShould
     {
-        [Fact]
-        public void ReturnLeapYearFor2000()
+        [Theory]
+        [InlineData(2000, "Leap Year!")]
+        [InlineData(2004, "Leap Year!")]
+        [InlineData(2005, "Not Leap Year!")]
+        [InlineData(1350, "Not Leap Year!")]
+        public void CheckIsLeapOrNotLeapYear(int year, string expected)
         {
-            string actual = LeapYearChecker.CheckIsLeapYear(2000);
-            Assert.Equal("Leap Year!", actual);
-        }
-        
-        [Fact]
-        public void ReturnLeapYearFor2004()
-        { 
-            string actual = LeapYearChecker.CheckIsLeapYear(2004);
-            Assert.Equal("Leap Year!", actual);
-        }
+            string actual = LeapYearChecker.CheckIsLeapYear(year);
+            Assert.Equal(expected, actual);
 
-        [Fact]
-        public void ReturnNotLeapYearFor2005()
-        {
-            string actual = LeapYearChecker.CheckIsLeapYear(2005);
-            Assert.Equal("Not Leap Year!", actual);
-
-        }
-
-        [Fact]
-        public void ReturnNotLeapYearFor1350()
-        {
-            string actual = LeapYearChecker.CheckIsLeapYear(1350);
-            Assert.Equal("Not Leap Year!", actual);
-            
         }
     }
 }
