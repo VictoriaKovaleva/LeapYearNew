@@ -6,7 +6,8 @@
         {
             if (year % 400 == 0)
                 return "Leap Year!";
-
+            if (year % 4 == 0 && year % 100 != 0)
+                return "Leap Year!";
             return "Not Leap Year!";
         }
     }
