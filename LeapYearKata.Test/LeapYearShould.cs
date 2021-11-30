@@ -12,6 +12,7 @@ namespace LeapYearKata.Test
         [InlineData(4000, "Leap Year!")]
         [InlineData(1300, "Not Leap Year!")]
         [InlineData(2300, "Not Leap Year!")]
+        [InlineData(16, "Leap Year!")]
         public void CheckIsLeapOrNotLeapYear(int year, string expected)
         {
             string actual = LeapYearChecker.CheckIsLeapYear(year);
