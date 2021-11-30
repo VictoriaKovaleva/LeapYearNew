@@ -4,7 +4,9 @@
     {
         public static string CheckIsLeapYear(int year)
         {
-           return "Leap Year!";
+            if (year % 400 == 0)
+                return "Leap Year!";
+            return "Not Leap Year!";
         }
     }
 }
